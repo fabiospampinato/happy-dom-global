@@ -1,6 +1,6 @@
 # Happy DOM Global
 
-Make Node a browser-like environment, by using Happy DOM.
+Make Node a browser-like environment, by using [Happy DOM](https://github.com/capricorn86/happy-dom).
 
 ## Install
 
