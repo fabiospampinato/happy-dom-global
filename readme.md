@@ -5,7 +5,7 @@ Make Node a browser-like environment, by using [Happy DOM](https://github.com/ca
 ## Install
 
 ```sh
-npm install --save happy-dom-global
+npm install happy-dom-global
 ```
 
 ## Usage
@@ -14,6 +14,8 @@ Simply importing it will register browser-like globals:
 
 ```ts
 import 'happy-dom-global';
+
+// Let's check that some browser-like globals are available
 
 console.log ( typeof globalThis.window ); // => 'object'
 console.log ( typeof globalThis.document ); // => 'object'
